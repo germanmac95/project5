@@ -14,33 +14,33 @@ body {
   margin: 0 auto;
 }
 
-.header {
+--- --- .header {
   height: 7em;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: rgb(50, 90, 121);
 }
-.header h1 {
+--- --- .header h1 {
   margin-left: 1rem;
 }
-.header .nav-left {
+--- --- .header .nav-left {
   display: flex;
 }
-.header .nav-right {
+--- --- .header .nav-right {
   display: flex;
   gap: 3em;
 }
-.header a {
+--- --- .header a {
   text-decoration: none;
   color: white;
   font-weight: 600;
 }
-.header a:hover {
+--- --- .header a:hover {
   text-decoration: underline;
   color: black;
 }
-.header a:hover .header-logo {
+--- --- .header a:hover .header-logo {
   height: 40px;
   width: 40px;
   align-self: center;
@@ -117,4 +117,6 @@ body {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* Medium devices (landscape tablets, 768px and up) */
 /* Large devices (laptops/desktops, 992px and up) */
-/* Extra large devices (large laptops and desktops, 1200px and up) *//*# sourceMappingURL=style.css.map */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+/*# sourceMappingURL=style.css.map */
